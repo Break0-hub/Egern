@@ -15,7 +15,7 @@ compat_arguments:
   排行榜: '0'
   推荐专属歌单: '1'
   你的专属歌单: '1'
-  脚本vip: #
+  脚本vip: '#'
 compat_arguments_desc: |-
   将 # 改成任意名称即可开启对应脚本
 
