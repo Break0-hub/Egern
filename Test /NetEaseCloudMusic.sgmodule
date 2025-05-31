@@ -60,9 +60,9 @@ DOMAIN,httpdns.music.163.com,REJECT-NO-DROP
 
 {{{脚本vip}}} = type=http-request, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/vipnewcenter\/app\/resource\/newaccountpage, script-path=https://raw.githubusercontent.com/mist-whisper/Script/master/NeteaseCloudMusic/ShareVIP.js, timeout=20
 
-{{{脚本伪vip}}} = type=http-request, pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(homepage\/|v6\/)?playlist\/(?!(?:delete|subscribe|unsubscribe)), script-path=https://raw.githubusercontent.com/mist-whisper/Script/master/NeteaseCloudMusic/ShareVIP.js, timeout=20
+{{{脚本vip}}} = type=http-request, pattern=^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(homepage\/|v6\/)?playlist\/(?!(?:delete|subscribe|unsubscribe)), script-path=https://raw.githubusercontent.com/mist-whisper/Script/master/NeteaseCloudMusic/ShareVIP.js, timeout=20
 
-{{{脚本伪vip}}} = type=http-request, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/vipauth\/app\/auth\/(soundquality\/)?query, script-path=https://raw.githubusercontent.com/mist-whisper/Script/master/NeteaseCloudMusic/ShareVIP.js, timeout=20
+{{{脚本vip}}} = type=http-request, pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/vipauth\/app\/auth\/(soundquality\/)?query, script-path=https://raw.githubusercontent.com/mist-whisper/Script/master/NeteaseCloudMusic/ShareVIP.js, timeout=20
 
 [MITM]
 hostname = %APPEND% interface.music.163.com, interface3.music.163.com, interface9.music.163.com,httpdns.n.netease.com, ipv4.music.163.com
