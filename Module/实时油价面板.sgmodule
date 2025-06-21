@@ -6,4 +6,4 @@
 [Panel]
 YJ = script-name=YJ,update-interval=43200
 [Script]
-YJ = type=generic,timeout=5,script-path=https://git.881699.xyz/Copy/Module/JS/CP.QingRex/实时油价面板.official/youjia.js?token=pehhe4konjuhHivwog,argument={{{YJDQ}}}
+YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Break0-hub/Egern/refs/heads/main/Module/JS/youjia.js,argument={{{YJDQ}}}
