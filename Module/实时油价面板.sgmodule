@@ -7,4 +7,4 @@
 [Panel]
 YJ = script-name=YJ,update-interval=43200
 [Script]
-YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/Break0-hub/Egern/refs/heads/main/Module/JS/youjia.js,argument={{{YJDQ}}}
+YJ = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/youjia.js,argument={{{YJDQ}}}
