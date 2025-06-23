@@ -1,8 +1,8 @@
 #!name=实时油价模块
 #!desc=显示本省实时油价
 #!auther= @RS0485 由 @keywos进行surge和Loon兼容性修改。
-#!arguments=YJDQ:填写你的油价地区（如guangdong/guangzhou）
-#!arguments-desc= 填本省/城市 名称拼音，或者去http://m.qiyoujiage.com/shanxi-3.shtml 查看自己省份拼音（陕西和山西比较特殊）
+#!arguments=YJDQ:填写你的地区（如guangdong/guangzhou）
+#!arguments-desc= 填本省/城市 名称拼音，直辖市请直接填拼音（如chongqing）\n 可去http://m.qiyoujiage.com 找到自己城市后查看网址里自己省份拼音（陕西和山西比较特殊）
 
 [Panel]
 YJ = script-name=YJ,update-interval=43200
