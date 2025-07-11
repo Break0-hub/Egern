@@ -1,0 +1,11 @@
+#!name=URL Redirect to Egern
+#!desc=Redirects specific URLs to Egern format by adding egern:///modules/new?url= prefix
+#!author=YourName
+#!version=1.0
+#!icon=https://example.com/icon.png
+
+[Script]
+http-response ^https://raw\.githubusercontent\.com/QingRex/LoonKissSurge/.*\.sgmodule$ script-path=https://raw.githubusercontent.com/Break0-hub/Egern/main/Module/JS/JumpToEgern.js, requires-body=true, timeout=10, tag=URLRedirect
+
+[MITM]
+hostname = raw.githubusercontent.com
